@@ -1,0 +1,40 @@
+
+
+html,body{
+    height: 100vh;
+    margin:0px;
+}
+
+
+#content{
+    display: grid;
+    grid-template-rows: 80px 1fr;  
+    height: 100%;
+}
+
+.displayContent{
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px;
+}
+
+.hero{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    column-gap: 10px;
+    user-select: none;
+}
+
+.button{
+    background-color: aliceblue;
+    width: 80px;
+    display: grid;
+    place-content: center;
+}
+
+.button:active{
+    background-color: blue;
+}
+
